@@ -14,9 +14,9 @@ public class AlertServiceImpl implements AlertService {
 
 //  public void sendSpittleAlert(final Spittle spittle) {
 //    jmsOperations.send(
-//      "spittle.alert.queue", 
+//      "spittle.alert.queue",
 //      new MessageCreator() {
-//        public Message createMessage(Session session) 
+//        public Message createMessage(Session session)
 //                       throws JMSException {
 //          return session.createObjectMessage(spittle);
 //        }

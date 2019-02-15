@@ -7,8 +7,13 @@
 		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-  <!--<start id="amqp_connectionFactory_bean"/>--> 
-  <connection-factory id="connectionFactory" />
+  <!--<start id="amqp_connectionFactory_bean"/>-->
+    <connection-factory id="connectionFactory"
+                        host="localhost"
+                        port="5672"
+                        username="guest"
+                        password="guest"
+    />
   <!--<end id="amqp_connectionFactory_bean"/>--> 
 	
 	

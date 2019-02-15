@@ -44,7 +44,7 @@ public class SpitterController {
 //    if (errors.hasErrors()) {
 //      return "registerForm";
 //    }
-//    
+//
 //    spitterRepository.save(spitter);
 //    redirectAttributes.addAttribute("username", spitter.getUsername());
 //    redirectAttributes.addFlashAttribute(spitter);

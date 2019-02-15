@@ -53,11 +53,11 @@
 
 <bean id="jmsTemplate" 
       class="org.springframework.jms.core.JmsTemplate"
-      c:_-ref="connectionFactory" 
+      c:_0-ref="connectionFactory"
       p:defaultDestinationName="spittle.alert.queue" />
 
 <bean id="alertService" class="spittr.alerts.AlertServiceImpl"
-      c:_-ref="jmsTemplate" />
+      c:_0-ref="jmsTemplate" />
 
 <jms:listener-container>
   <jms:listener destination="spittle.alert.queue" 
